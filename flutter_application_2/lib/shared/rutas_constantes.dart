@@ -1,0 +1,4 @@
+enum Rutas {
+  inicio,
+  inputsPage,
+}

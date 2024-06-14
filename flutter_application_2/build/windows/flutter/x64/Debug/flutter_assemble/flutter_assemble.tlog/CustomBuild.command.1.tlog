@@ -1,0 +1,28 @@
+^C:\USERS\CCBAI\ONEDRIVE\DOCUMENTOS\FLUTTER PROJECTS\PROJECTO-FLUTTER\FLUTTER_APPLICATION_2\BUILD\WINDOWS\CMAKEFILES\376924D57FEC97ED4BE4F01E1DFA18D9\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\ccbai\OneDrive\Documentos\Flutter Projects\projecto-flutter\flutter_application_2" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\ccbai\OneDrive\Documentos\Flutter Projects\projecto-flutter\flutter_application_2\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\ccbai\OneDrive\Documentos\Flutter Projects\projecto-flutter\flutter_application_2" "FLUTTER_TARGET=C:\Users\ccbai\OneDrive\Documentos\Flutter Projects\projecto-flutter\flutter_application_2\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC85MGZhM2FlMjhmZTZkZGFlZTFhZjJjMTIwZjAxZTUwMjAxYzE0MDFiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\ccbai\OneDrive\Documentos\Flutter Projects\projecto-flutter\flutter_application_2\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CCBAI\ONEDRIVE\DOCUMENTOS\FLUTTER PROJECTS\PROJECTO-FLUTTER\FLUTTER_APPLICATION_2\BUILD\WINDOWS\CMAKEFILES\E0E7EABD214BC251B3537D2475F192D0\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CCBAI\ONEDRIVE\DOCUMENTOS\FLUTTER PROJECTS\PROJECTO-FLUTTER\FLUTTER_APPLICATION_2\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ccbai/OneDrive/Documentos/Flutter Projects/projecto-flutter/flutter_application_2/windows" "-BC:/Users/ccbai/OneDrive/Documentos/Flutter Projects/projecto-flutter/flutter_application_2/build/windows" --check-stamp-file "C:/Users/ccbai/OneDrive/Documentos/Flutter Projects/projecto-flutter/flutter_application_2/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
